@@ -1,3 +1,7 @@
+<head>
+  ...
+  <link rel="stylesheet" href="./style.css" />
+</head>
 <header>
     <div>
       <div>
@@ -17,18 +21,18 @@
     </div>
     <div>
         <img class="npm-logo" src="images/npm-logo.png" alt="npm logo" />
-        <a href="#">Join</a>
-        <a href="#">Log In</a>
         <form action="/register" method="post" class="search-form">
-            <div class="sear-form-container">
+            <div class="search-form-container">
                 <input type="text" id="search" placeholder="Seach packages">
-                <button type="submit">Seach</button>
+                <button type="submit" class="search-button">Seach</button>
             </div>
+            <a href="#" class="join-button">Join</a>
+            <a href="#" class="login-button">Log In</a>
         </form>
     </div>
   </header>
   <body>
-    <section>
+    <section class="section-box">
         <h1>Build amazing things</h1>
         <article>
             Essential JavaScript development tools that help you go to market faster and build powerful applications using modern open source code. 
@@ -38,7 +42,7 @@
             <a href="#">Join for Free</a>
         </div>
     </section>
-    <section>
+    <section class="section-box">
         <img class="triangle-heaxagon" src="images/triangle-hexagon.svg" alt="triangle hexagon" />
         <h2>Bring the best of open source to your company</h2>
         <article>
@@ -46,22 +50,22 @@
         </article>
     </section>
     <section>
-       <div>
+       <div class="service-box">
         <img class="service-box-img" src="images/zero-configuration.svg" alt="zero configuration" />
         <h3>Zero Configuration</h3>
         <p>Create an org, add your team, and start collaborating. Nothing to configure, set up, or manage.</p>
        </div>
-       <div>
+       <div class="service-box">
         <img class="service-box-img" src="images/team-management.svg" alt="team management" />
         <h3>Team managment</h3>
         <p>Control who has access to what modules within your team namespace using straightforward team management capabilities.</p>
        </div>
-       <div>
+       <div class="service-box">
         <img class="service-box-img" src="images/familiar-features.svg" alt="familiar features" />
         <h3>Familiar features</h3>
         <p>npm Orgs has 100% parity with all the public npm registry features your developers already use.</p>
        </div>
-       <div>
+       <div class="service-box">
         <img class="service-box-img" src="images/npm-audit.svg" alt="npm audit" />
         <h3>npm audit</h3>
         <p>Enjoy the security
